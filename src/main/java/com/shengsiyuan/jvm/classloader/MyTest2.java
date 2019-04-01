@@ -1,7 +1,7 @@
 package com.shengsiyuan.jvm.classloader;
 
 /**
- *
+ *  javap -c com.shengsiyuan.jvm.classloader.MyTest2  //反编译
  ldc:表示将int,float或是String类型的常量值从常量池中推送至栈顶
  bipush:表示将单字节(-128 ~ 127)的常量值推送至栈顶 （比如short类型）
  sipush：表示将短zheng'xing整形常量值(-32768 ~ 32767)推送至栈顶
