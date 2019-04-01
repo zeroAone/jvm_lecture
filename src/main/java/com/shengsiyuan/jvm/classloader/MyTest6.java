@@ -1,5 +1,9 @@
 package com.shengsiyuan.jvm.classloader;
+/**
+*初始化：为类的静态变量赋予正确的初始值  
 
+*
+/
 public class MyTest6 {
     public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
@@ -21,7 +25,7 @@ class Singleton {
 
     public static int counter2 = 0;
 
-    public static Singleton getInstance(){
+    public static Singleton getInstance(){ //*主动使用：调用类的静态方法
         return singleton;
     }
 
